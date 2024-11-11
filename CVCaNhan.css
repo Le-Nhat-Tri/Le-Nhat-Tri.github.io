@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff; 
+}
+.container {
+    display: flex;
+    width: 80%; 
+    max-width: 900px; 
+    margin: auto; 
+    border: 2px solid #00aaff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+.left {
+    width: 40%;
+    padding: 20px;
+    background-color: #5cfb78; 
+    border-right: 2px solid #00aaff; 
+}
+.right {
+    width: 60%;
+    padding: 20px;
+    background-color: #ff9d00; 
+}
+img {
+    max-width: 100%;
+    border-radius: 10%;
+}
+h2 {
+    color: #ff4c4c; 
+}
+p, ul {
+    color: #333; 
+}

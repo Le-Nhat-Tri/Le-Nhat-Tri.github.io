@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký Thông Tin</title>
+    <link rel="stylesheet" href="Information.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Đăng Ký Nhập Học Trường</h2>
+        <form action="#" method="POST" class="form">
+            <div class="form-group">
+                <label for="fullname">Họ và Tên</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Số Điện Thoại</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Địa Chỉ</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="hobbies">Sở Thích</label>
+                <input type="text" id="hobbies" name="hobbies" placeholder="Nhập sở thích của bạn...">
+            </div>
+            <div class="form-group">
+                <label for="achievements">Thành Tích</label>
+                <input type="text" id="achievements" name="achievements" placeholder="Nhập thành tích của bạn...">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="showCert" class="show-cert-checkbox">
+                <label for="showCert" class="show-cert-label">Chứng Chỉ</label>
+                <div class="certificates">
+                    <label for="certificate-name">Chọn Chứng Chỉ</label>
+                    <select id="certificate-name" name="certificate-name">
+                        <option value="ielts">IELTS</option>
+                        <option value="mos">MOS</option>
+                        <option value="jlpt">JLPT</option>
+                        <option value="sat">SAT</option>
+                        <option value="hsk">HSK</option>
+                    </select>
+                    <label for="certification-date">Ngày Cấp Chứng Chỉ</label>
+                    <input type="date" id="certification-date" name="certification-date">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="school">Chọn Trường/Học viện</label>
+                <div class="custom-select-wrapper">
+                    <select id="school" name="school">
+                        <option value="None">Chưa có</option>
+                        <option value="JJK">Cao đẳng Chú Thuật Tokyo</option>
+                        <option value="Bleach">Soul Society</option>
+                        <option value="MHA">Học viện siêu anh hùng</option>
+                        <option value="Demon slayer">Phủ của chúa công</option>
+                        <option value="Blue archive">THCS Abydos (dành cho nữ)</option>
+                        <option value="AOT">Học viện trinh sát Titan</option>
+                        <option value="Fire Force">Trạm cứu hỏa số 8</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Gửi</button>
+        </form>
+    </div>
+</body>
+</html>
